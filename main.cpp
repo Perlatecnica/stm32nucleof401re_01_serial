@@ -21,6 +21,8 @@
 *****************************************************/
 #include "mbed.h"
 
+
+// It creates an instance of the class Serial. 'pc' is the name of the variable and assign the TX and RX pin to it
 UnbufferedSerial pc(USBTX, USBRX);
 
 
@@ -33,5 +35,5 @@ int main() {
 }
 
 // OBSERVE THAT ONCE THE MESSAGES HAVE BEEN PRINTED, NOTHING ELSE HAPPENS
-
+// Reset the board
 // EXERCISE: Modify the printed messages
